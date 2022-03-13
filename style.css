@@ -1,0 +1,160 @@
+body{
+  max-width: 1536px;
+  max-height: 864px;
+  margin: 0 auto;
+  background-image : url(image/form-bg.png);
+}
+
+img{
+  width: 25%;
+}
+
+.main-wrapper{
+  position: relative;
+  height: 700px;
+  margin: 0 auto;
+}
+
+
+.fuwafuwa1 {
+    animation-name: fuwafuwa1Anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+
+@keyframes fuwafuwa1Anime {
+    0% {
+        transform: translate(3,0px);
+        opacity: 1;
+        width: 23%;
+    }
+    100% {
+        transform: translate(0,-5px);
+        opacity: 0.9;
+        width: 23.5%;
+    }
+}
+
+.fuwafuwa2 {
+    animation-name: fuwafuwa2Anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+
+@keyframes fuwafuwa2Anime {
+    0% {
+        transform: translate(0,0px);
+        opacity: 1;
+        width: 22%;
+    }
+    100% {
+        transform: translate(0,10px);
+        opacity: 0.9;
+        width: 21.5%;
+    }
+}
+
+.fuwafuwa3 {
+    animation-name: fuwafuwa3Anime;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+
+@keyframes fuwafuwa3Anime {
+    0% {
+        transform: translate(0,0px);
+        opacity: 1;
+        width: 22%;
+    }
+    50%{
+        width: 22.5%;
+    }
+    100% {
+        transform: translate(5,-5px);
+        opacity: 0.9;
+        width: 22%;
+    }
+}
+
+#cloud{
+  opacity: 0.8;
+}
+
+#title{
+  position: absolute;
+  font-size: 30px;
+  top: 400px;
+  left: 620px;
+  color: white;
+  border-bottom: 1px solid white;
+  width: 300px;
+  text-align: center;
+}
+
+/*cloud*/
+
+#c1{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#c2{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+#c3{
+  position: absolute;
+  top: 570px;
+  left: 30px;
+}
+
+#c4{
+  position: absolute;
+  top: 80px;
+  left: 410px;
+}
+
+#c5{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+}
+
+#c6{
+  position: absolute;
+  top: 10px;
+  left: 780px;
+}
+
+#c7{
+  position: absolute;
+  top: 600px;
+  left: 780px;
+}
+
+#c8{
+  position: absolute;
+  top: 90px;
+  left: /*980*/1160px;
+}
+
+#c9{
+  position: absolute;
+  top: 320px;
+  left: 980px;
+}
+
+#c10{
+  position: absolute;
+  top: 550px;
+  left: 1150px;
+}
