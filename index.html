@@ -25,7 +25,7 @@
 
         const response = await fetch(url,{headers: { 'Content-Type': 'text/plain'}})
         const result = await response.json()//textで受け取りたい場合は、.text
-        console.log(result)
+        //console.log(result)
         createNode(result)
       }
 
